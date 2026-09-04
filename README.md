@@ -95,6 +95,17 @@ The Logistic Regression model achieved the following results:
 
 The model was also tested with new product reviews and successfully predicted Positive and Negative sentiments.
 
+### Confusion Matrix
+
+The confusion matrix obtained from the test data is:
+
+| | Predicted Negative | Predicted Positive |
+|---|---:|---:|
+| Actual Negative | 206 | 268 |
+| Actual Positive | 32 | 3458 |
+
+The model correctly classified most of the positive reviews, while some negative reviews were classified as positive.
+
 ## Example
 
 **Input:**
