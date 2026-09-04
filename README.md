@@ -73,6 +73,7 @@ The dataset is divided into:
 
 The TF-IDF vectorizer uses up to 10,000 features and includes unigrams and bigrams.
 
+
 ## Results
 
 The model was evaluated using:
@@ -83,12 +84,14 @@ The model was evaluated using:
 - F1-Score
 - Confusion Matrix
 
-The model achieved approximately:
+The Logistic Regression model achieved the following results:
 
-- Accuracy: 92%
-- Precision: 93%
-- Recall: 99%
-- F1-Score: 96%
+| Metric | Score |
+|--------|-------|
+| Accuracy | 92.43% |
+| Precision | 92.81% |
+| Recall | 99.08% |
+| F1-Score | 95.84% |
 
 The model was also tested with new product reviews and successfully predicted Positive and Negative sentiments.
 
